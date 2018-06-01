@@ -1,0 +1,17 @@
+<div class="col-md-10">
+    <form id="search-form" class="input-group col-md-12">
+        <input type="text" id="search-query" class="form-control" name="query" autocomplete="off" placeholder="Text for search...">
+        <span class="input-group-btn">
+            <button type="submit" class="btn btn-info">
+                <i class="glyphicon glyphicon-search"></i>
+            </button>
+        </span>
+    </form>
+</div>
+
+<div class="col-md-2">
+    <a href="#contacts/new" class="btn btn-success pull-right">
+        <i class="glyphicon glyphicon-plus"></i>
+        Add new contact
+    </a>
+</div>

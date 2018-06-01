@@ -1,0 +1,27 @@
+{
+  "name": "advanced_backbone",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "tsiupa <tsiupa@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "bootstrap": "^3.3.7",
+    "backbone": "^1.3.3",
+    "dustjs-linkedin": "^2.7.5",
+    "text": "^2.0.15",
+    "lodash-amd": "^3.10.2",
+    "requirejs": "^2.3.2"
+  }
+}

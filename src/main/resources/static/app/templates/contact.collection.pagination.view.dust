@@ -1,0 +1,9 @@
+{?needToShow}
+    <ul class="pagination pull-right">
+        {#pages}
+            <li id="page" class="{?isActive}active{/isActive}" data-number="{number}">
+                <a href="javascript:void 0">{number}</a>
+            </li>
+        {/pages}
+    </ul>
+{/needToShow}

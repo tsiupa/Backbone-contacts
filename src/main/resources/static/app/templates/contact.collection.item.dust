@@ -1,0 +1,14 @@
+<div class="col-sm-6 col-md-4">
+    <div class="thumbnail text-center">
+      <img class="img-rounded img-responsive" src="http://placehold.it/200x200" alt="contact_img"/>
+      <div class="caption">
+        <h3>{name}</h3>
+        <p>Phone: {phone}</p>
+        <p>Group: {group}</p>
+        <div class="btn-group">
+        	<a href="#contacts/{id}" id='edit-btn' class="btn btn-info" role="button">Edit</a>
+        	<a id='delete-btn' class="btn btn-danger" role="button">Delete</a>
+    	</div>
+      </div>
+    </div>
+</div>
